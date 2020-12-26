@@ -1,0 +1,189 @@
+Hi everyone!
+
+I set this aside a little, but now I would like to show you courses which I did in my little programming career.
+I share you 89% of courses that I did and which is worth to recommend.
+
+
+EVERYTHING!!! XD
+
+https://github.com/tuvtran/project-based-learning#python
+https://www.coursera.org/
+
+Pythone for begginers
+https://www.youtube.com/watch?v=rfscVS0vtbw&list=WL&index=2&t=0s
+
+
+Courses:
+https://www.datacamp.com/courses/intro-to-python-for-data-science
+https://codegym.cc/pl/groups/posts/225-wykad-zerowy?gclid=CjwKCAjwg6b0BRBMEiwANd1_SLJHGRcq--FiqZPaBnaXjIFxI7mqIw57OeSH5vmYRWZXQ0i1FHLf5BoC4doQAvD_BwE
+https://learndigital.withgoogle.com/internetowerewolucje?utm_source=yt&utm_medium=cpv&utm_term=inmarket&utm_content=20191001&utm_campaign=trv_pl_desk&dclid=&gclid=Cj0KCQjw9fntBRCGARIsAGjFq5GnM7sAYw-N8q7UyHR-WI5zybId1NePnDcCyUefJI8imDk-W-Sl2GIaAodSEALw_wcB
+
+
+Python OOP
+
+http://math.uni.lodz.pl/~rodakt/dane/analiza_danych/17.18/wyklad_VI.html
+http://programista-python.pl/klasy-i-obiekty-w-pythonie/
+https://www.learnpython.org/pl/Klasy_i_obiekty
+http://programista-python.pl/konstruktor-destruktor-i-parametr-self-w-pythonie/
+https://pl.python.org/forum/index.php?topic=1830.0;wap2
+http://sigmaquality.pl/uncategorized/23_py-przyklady-zastosowania-funkcji-specjalnej-__init__/
+http://books.icse.us.edu.pl/runestone/static/thinkcspy/Functions/mainfunction.html
+http://analityk.edu.pl/programowanie-obiektowe-w-python/
+https://www.kodolamacz.pl/blog/wyzwanie-python-5-zaawansowane-aspekty-programowania-obiektowego/
+https://stackoverflow.com/questions/576169/understanding-python-super-with-init-methods
+
+
+QGIS-PySide-PyQt
+PyQGIS cheet sheet
+https://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/communicating.html
+https://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/cheat_sheet.html#user-interface
+http://twiki.fotogrametria.agh.edu.pl/pub/Dydaktyka/PyGISMaterSt/Python_na_potrzeby_GIS_wyklad.pdf
+http://www.qgistutorials.com/it/docs/3/building_a_python_plugin.html - develop plugins
+https://automating-gis-processes.github.io/site/
+https://www.learnpyqt.com/tutorials/packaging-pyqt5-pyside2-applications-windows-pyinstaller/
+https://doc.qt.io/qtforpython/deployment-pyinstaller.html
+https://stackoverrun.com/pl/q/1053584
+https://www.learnpyqt.com/tutorials/pyqt5-vs-pyside2/
+
+EXE
+https://stackoverflow.com/questions/5458048/how-can-i-make-a-python-script-standalone-executable-to-run-without-any-dependen
+https://stackoverflow.com/questions/20526341/py2exe-how-to-generate-exe-for-application-with-gui-in-python
+
+
+OpenCV
+ 
+https://youtu.be/WQeoO7MI0Bs 3 hours OpenCV course
+https://www.pyimagesearch.com/2015/11/09/pedestrian-detection-opencv/ - pedestrian detector
+https://www.pyimagesearch.com/2014/11/10/histogram-oriented-gradients-object-detection/ - HOG
+https://github.com/opencv/opencv/tree/master/data/haarcascades - haarscascades
+https://medium.com/@vipulgote4/guide-to-make-custom-haar-cascade-xml-file-for-object-detection-with-opencv-6932e22c3f0e - Guide to make Custom Haar Cascade XML file for Object detection with OpenCV
+https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/ - own haarcascade
+https://www.hackevolve.com/create-your-own-object-detector/ - create detector SVM
+https://github.com/saideeptalari/Object-Detector - object detector
+https://www.pyimagesearch.com/2015/05/04/target-acquired-finding-targets-in-drone-and-quadcopter-video-streams-using-python-and-opencv/
+
+Threads
+http://www.rwdev.eu/articles/threads
+https://inventwithpython.com/blog/2013/04/22/multithreaded-python-tutorial-with-the-threadworms-demo/
+
+BOOKS
+
+Automate the Boring Stuff with Python 
+Mark Lutz – Learning Python 
+https://jakevdp.github.io/PythonDataScienceHandbook/
+https://www.pythonkitchen.com/legally-free-python-books-list/?fbclid=IwAR2aUjMi_eT0GtZ5-qQEzsAsdk_pSyRQm5CQNaprczClVE69hQMY78rSyNo
+http://python101.pythonlibrary.org/
+https://python101.readthedocs.io/pl/latest/index.html
+https://docs.python.org/3/
+https://diveintopython3.problemsolving.io/
+https://pl.wikibooks.org/wiki/Zanurkuj_w_Pythonie
+https://www.nltk.org/book/ - natural language processing
+https://nlp.stanford.edu/IR-book/ - Introduction to Information Retrieval
+https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf
+https://www.deeplearning.ai/machine-learning-yearning/ 
+
+
+Statystyka:
+https://greenteapress.com/wp/think-bayes/ beyes statistic
+https://greenteapress.com/wp/think-stats-2e/ beyes statistic2
+https://nlp.stanford.edu/fsnlp/ - natural language processing
+https://www.statystyka.az.pl/5-najwazniejszych-metod-statystycznych-w-analizie-danych.php
+
+
+Data Science
+https://vita.had.co.nz/papers/tidy-data.pdf  -tidy data
+
+https://analityk.edu.pl/
+
+Geopandas:
+https://www.youtube.com/c/GeoDeltaLabs/videos
+
+Pandas:
+https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS
+
+Mapping with matplolib and others
+https://maten.pl/post/poland-map/
+https://geopandas.org/mapping.html
+https://matplotlib.org/tutorials/colors/colormaps.html
+
+
+Machine Learning
+https://web.stanford.edu/~hastie/Papers/ESLII.pdf - probably the best book for ML
+https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+https://towardsdatascience.com/how-convolutional-neural-network-works-cdb58d992363
+
+
+KivyMd
+https://kivy.org/doc/stable/guide/packaging-android.html#packaging-android
+https://github.com/kivymd/KivyMD
+https://kivy.org/doc/stable/installation/installation-windows.html
+https://github.com/kivy/python-for-android
+https://kivymd.readthedocs.io/en/latest/index.html
+https://github.com/attreyabhatt/KivyMD-Basics
+https://github.com/alecvn/kivy-android-camera
+https://kivy.org/doc/stable/api-kivy.core.camera.html?highlight=camera#kivy.core.camera
+https://stackoverflow.com/questions/14910065/accessing-android-camera-through-kivy
+
+
+Algorithms:
+
+http://codewars.com/
+https://www.spoj.com/
+https://www.practicepython.org/
+http://www.algorytm.org/dla-poczatkujacych/szukanie-polowkowe-binarne/szukanie-polowkowe-1-py.html?fbclid=IwAR2p8ZJQgzozpRXnz7F0Gr1amjfkKOVcyyYmX7BO-DbYaYwvgDbaNhZfd8A
+
+Developing App - Android Ios
+
+https://www.youtube.com/c/buildwithpython/videos
+https://www.youtube.com/c/TechWithTim/videos
+https://www.youtube.com/c/ErikSandbergSoftware/videos
+https://github.com/alecvn/kivy-android-camera
+https://smartphonedaq.com/gps.page
+https://navigate.pl/blog/wszystko-co-musisz-wiedziec-o-gps-ie-w-telefonie-i-tablecie-a-nie-miales-kogo-zapytac/
+
+
+Testowanie
+https://realpython.com/python-testing/?fbclid=IwAR23vMEWJhkOPEFStFlakY-W1ub-cyQjzn9rP7XJHmUQAzGpq03N6O711tU#writing-your-first-test
+
+
+
+Drones
+Drone Programming with Python - Face Recognition & Tracking - udemy course
+https://www.youtube.com/watch?v=P2wl3N2JW9c&list=PLMoSUbG1Q_r8ib2U4AbC_mPTsa-u9HoP_ - Murtaza Roborics course
+https://www.pyimagesearch.com/2015/05/04/target-acquired-finding-targets-in-drone-and-quadcopter-video-streams-using-python-and-opencv/
+https://www.udemy.com/course/drone-programming-with-python-face-recognition-tracking/?fbclid=IwAR1zABnJ19oE55RK6ia5ANb-cohNexD5pOMayp2366F2zOuMKtfJtFx22ME&moon=tethys&utm_campaign=ROW-FB-DRT-Visitor-Evergreen-ROW-Smartly-EN-ROW_._ci__._sl_ROW_._vi__._sd_All_._la_EN_._&utm_content=_._pd_2367972_._&utm_medium=udemyads&utm_source=facebook&utm_term=_._ag_row_3_day_visitors_._ad_6182339712088_._
+https://github.com/chpatrick/hubsan
+https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20SDK%202.0%20User%20Guide.pdf
+
+https://github.com/dji-sdk/Tello-Python
+
+
+Matlab 
+
+https://www.mimuw.edu.pl/~mbodnar/modele/mat/sciaga_z_matlaba - cheet sheet
+
+Command prompt
+https://www.digitalcitizen.life/command-prompt-how-use-basic-commands/
+
+
+
+add data type to toolbar win 10
+https://jsephler.co.uk/add-a-new-file-to-the-windows-10-context-menu/
+
+
+
+Articles:
+https://www.flynerd.pl/2018/02/github-dla-zielonych-pierwsze-repozytorium.html
+https://www.flynerd.pl/2018/07/jak-zaczac-programowac-5-krokow.html
+https://www.flynerd.pl/2019/08/junior-python-developer-co-musi-umiec.html
+https://hothardware.com/news/characters-depixelized-by-ai-haunt-your-dreams
+https://www.flynerd.pl/2018/06/500-zadan-w-pythonie-i-kazdym-innym-jezyku.html
+
+
+
+Java
+https://www.samouczekprogramisty.pl/metody-w-jezyku-java/
+https://www.samouczekprogramisty.pl/kurs-programowania-java/
+
+Udemy:
+https://www.udemy.com/tutorial/the-modern-python3-bootcamp/python3-vs-python2/
