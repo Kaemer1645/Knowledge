@@ -83,7 +83,7 @@ https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/
 https://www.deeplearning.ai/machine-learning-yearning/ 
 
 
-Statystyka:
+Statistics:
 https://greenteapress.com/wp/think-bayes/ beyes statistic
 https://greenteapress.com/wp/think-stats-2e/ beyes statistic2
 https://nlp.stanford.edu/fsnlp/ - natural language processing
@@ -142,7 +142,7 @@ https://smartphonedaq.com/gps.page
 https://navigate.pl/blog/wszystko-co-musisz-wiedziec-o-gps-ie-w-telefonie-i-tablecie-a-nie-miales-kogo-zapytac/
 
 
-Testowanie
+Tests
 https://realpython.com/python-testing/?fbclid=IwAR23vMEWJhkOPEFStFlakY-W1ub-cyQjzn9rP7XJHmUQAzGpq03N6O711tU#writing-your-first-test
 
 
