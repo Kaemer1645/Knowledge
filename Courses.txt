@@ -170,7 +170,8 @@ https://www.digitalcitizen.life/command-prompt-how-use-basic-commands/
 add data type to toolbar win 10
 https://jsephler.co.uk/add-a-new-file-to-the-windows-10-context-menu/
 
-
+Python paths:
+https://sweetcode.io/python-file-importation-multi-level-directory-modules-packages/
 
 Articles:
 https://www.flynerd.pl/2018/02/github-dla-zielonych-pierwsze-repozytorium.html
