@@ -44,7 +44,7 @@ https://www.learnpyqt.com/tutorials/packaging-pyqt5-pyside2-applications-windows
 https://doc.qt.io/qtforpython/deployment-pyinstaller.html
 https://stackoverrun.com/pl/q/1053584
 https://www.learnpyqt.com/tutorials/pyqt5-vs-pyside2/
-
+https://www.udemy.com/share/102zBOAEMSeVZTR3wF/ - develop plugin free introduction tutorial
 EXE
 https://stackoverflow.com/questions/5458048/how-can-i-make-a-python-script-standalone-executable-to-run-without-any-dependen
 https://stackoverflow.com/questions/20526341/py2exe-how-to-generate-exe-for-application-with-gui-in-python
