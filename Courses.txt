@@ -113,6 +113,10 @@ Machine Learning
 https://web.stanford.edu/~hastie/Papers/ESLII.pdf - probably the best book for ML
 https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 https://towardsdatascience.com/how-convolutional-neural-network-works-cdb58d992363
+https://playground.tensorflow.org/#activation=tanh&batchSize=9&dataset=circle&regDataset=reg-plane&learningRate=1&regularizationRate=0&noise=10&networkShape=4,2&seed=0.58880&showTestData=false&discretize=false&percTrainData=70&x=true&y=true&xTimesY=false&xSquared=true&ySquared=true&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false&stepButton_hide=false
+https://www.udemy.com/course/uczenie-maszynowe-python/
+
+
 
 
 KivyMd
