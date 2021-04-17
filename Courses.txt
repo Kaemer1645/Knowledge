@@ -92,8 +92,10 @@ https://www.statystyka.az.pl/5-najwazniejszych-metod-statystycznych-w-analizie-d
 
 Data Science
 https://vita.had.co.nz/papers/tidy-data.pdf  -tidy data
-
 https://analityk.edu.pl/
+
+SQL-raster analizys
+https://github.com/bh-del/IDP/blob/master/raster_analysis_gdal.md
 
 Geopandas:
 https://www.youtube.com/c/GeoDeltaLabs/videos
