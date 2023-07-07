@@ -1,0 +1,7 @@
+set this env paths to PATH
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64
+C:\OSGeo4W
+C:\OSGeo4W\bin
+C:\cygwin64\bin\
+C:\Program Files\CMake\bin
