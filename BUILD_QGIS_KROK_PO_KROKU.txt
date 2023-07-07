@@ -1,0 +1,71 @@
+1. Przygotowanie środowiska
+
+LINK DO ORYGINALU https://gist.github.com/troopa81/b43f96c20fdde2778ecdeaf8cf87684e
+
+Download and install Cygwin : https://www.cygwin.com/setup-x86_64.exe Install it and and install the following packages : flex bison curl git unzip
+Download and install last stable release of CMake : https://cmake.org/download/
+I think we don't need to install git with Windows installer because we already have it with cygwin but I failed to clone https repo and I don't know which cygwin package a need to install.
+Download Visual Studio 2019 Community : https://my.visualstudio.com/Downloads?q=visual%20studio%202019&wt.mc_id=o~msft~vscom~older-downloads Install the workload C++ Desktop development
+Download and install OSGeo4w v2 : http://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe
+
+From a new cygwin console:
+
+git clone https://github.com/jef-n/OSGeo4W.git
+cd OSGeo4W/src/qgis-dev/osgeo4w
+export OSGEO4W_REP=/cygdrive/C/OSGeo4W
+# In order to set VCSDK correctly, take a look of the folder name in C:\Program Files (x86)\Windows Kits\10\Lib
+export VCSDK=10.0.19041.0
+# Comment line 112 to 116 of the package.sh file, associated to grass (I imagine there is something more to be done to make this lines work)
+./package.sh
+
+TUTAJ ZMIANA package.sh i build-heleprs na format UNIX !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! w notepad lub przez dos2unix w cygwin
+
+to start the program, you then need to copy the directory C:\cygwin64\home\Julien\OSGeo4W\src\qgis-dev\osgeo4w to C:\cygwin64\home\Julien\OSGeo4W\src\qgis-dev\osgeo4w\osgeo4w and modify qgis-dev.bat script in bon dir to change the start line with this
+
+start "QGIS" /B "%OSGEO4W_ROOT%\apps\qgis-dev\bin\qgis.exe" %*
+
+To build and debug within Visual Studio
+
+In package.sh, replace Ninja with Visual Studio 16 2019 albo Visual Studio 17 2022 in the CMake command call and add "exit 0" just after, then call package.sh script.
+
+2. KOMPILACJA
+
+
+pozmieniać ścieżki na swoje w plikach ".bat"
+w msvc-env zmienic 
+
+set VCSDK=10.0.19041.0
+
+set VCARCH=amd64
+REM set SETUPAPI_LIBRARY=%PF86%\Windows Kits\10\Lib\%VCSDK%\um\x64\SetupAPI.Lib
+set SETUPAPI_LIBRARY=C:\Program Files (x86)\Windows Kits\10\Lib\10.0.19041.0\um\x64\SetupAPI.Lib
+REM set DBGHLP_PATH=%PF86%\Windows Kits\10\Debuggers\x64
+set DBGHLP_PATH=%PF86%\Windows Kits\10\Debuggers\x86
+
+
+call ../msvc-env.bat
+call ../osgeo4w/bin/o4w_env.bat
+call ../osgeo4w/bin/gdal-dev-env.bat
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe" qgis.sln
+albo
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe" qgis.sln
+
+Then from a new cmd interface
+cd C:\cygwin64\home\USERNAME\OSGeo4W\src\qgis-dev\osgeo4w\build
+call ../msvc-env.bat
+call ../osgeo4w/bin/o4w_env.bat
+call ../osgeo4w/bin/gdal-dev-env.bat
+
+You can now build your QGIS target inside Visual Studio 2019/2022
+
+qgis_core.cpp
+mozliwe ze beda errory z plikami trzeba wtedy dodac -> do properties additional Dodaj flagę /bigobj do pola "Additional Options" (Dodatkowe opcje). w sekcji c++, command line
+
+w przypadku synccrsdb build error
+https://gis.stackexchange.com/questions/355075/synccrsdb-build-error
+
+w solution properites-->debugging-->command dodac sciezke do pliku qgis.exe aby móc debugować
+
+3. UPDATE
+PRZED PULLEM kodu źródłowego QGIS SPRAWDZIC I ZAKTUALIZOWAC PLIK ./package.sh od goscia zwanego JEF -> https://github.com/jef-n/OSGeo4W.git
