@@ -13,9 +13,9 @@ import debugpy
 (wczesniej mialem dodana tez konfiguracje
 
 # sys.path.append('home/user/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/lib')
-# debugpy.configure(python=shutil.which("python3"))
+prawdopodobnie wymagane na linux)
 
-prawdopodobnie zbędna)
+debugpy.configure(python=shutil.which("python3")) - musi być
 
 try:
     debugpy.listen(("localhost", 5678))
