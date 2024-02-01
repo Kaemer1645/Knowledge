@@ -1,0 +1,27 @@
+1. W visual studio code stworzyc plik launch.json remote attach z localhost i jakims portem
+
+2. Zmienic localroot i remoteroot na swoje sciezki
+
+   "localRoot": "${workspaceFolder}",
+   "remoteRoot": "C:\\Users\\user\\AppData\\Roaming\\QGIS\\QGIS3\\profiles\\default\\python\\plugins\\plugin"
+
+2. W __init__ pluginu dodac debugpy 
+
+
+import debugpy
+
+(wczesniej mialem dodana tez konfiguracje
+
+# sys.path.append('home/user/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/lib')
+# debugpy.configure(python=shutil.which("python3"))
+
+prawdopodobnie zbędna)
+
+try:
+    debugpy.listen(("localhost", 5678))
+except:
+    debugpy.connect(("localhost", 5678))
+
+
+3. Wlaczyc qgis i vscode
+4. Wlaczyc debug Python Remote Attach
