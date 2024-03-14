@@ -1,0 +1,234 @@
+SOLID principles \/
+Single Responsibility Principle
+Open close principle
+Liskov Substitution Principle
+Interface Segregation Principle
+Dependency Inversion Principle
+
+DDD-Domain-driven design
+TDD-Test-driven development
+RDD-Resilient Distributed Datasets
+
+Jira - Jira to platforma do organizowania pracy i uruchamiania oraz monitoringu procesów w organizacjach.
+agile - 
+zapier - 
+
+Docker Swarm (ang. rój) to jedna lub więcej maszyn fizycznych, lub wirtualnych, które mogą uruchamiać kontenery jako usługi. 
+Każdy węzeł po dołączeniu do Swarma może być zarówno węzłem roboczym, jak i managerem.
+
+Reinterpret_cast – konwertuje przez zmiane typu 
+
+CI/CD to skrót od Continuous Integration i Continuous Delivery,
+czyli procesów ciągłej integracji i ciągłego dostarczania. 
+Jest to metoda zarządzania projektem oprogramowania, 
+która polega na ciągłym i automatycznym sprawdzaniu, testowaniu i wdrażaniu kodu do produkcji.
+
+hype-driven development https://www.google.com/search?q=hype+driven+development&oq=hype+driven+&aqs=chrome.1.69i57j0i512j0i22i30l2j0i15i22i30j0i10i22i30j0i22i30j0i10i15i22i30l2.2990j0j7&sourceid=chrome&ie=UTF-8
+
+
+co to jest yaml?
+
+
+noqa = NO-QA (NO Quality Assurance) https://stackoverflow.com/questions/45346575/what-does-noqa-mean-in-python-comments
+
+What does `auto && e` do in range-based for-loops?  https://stackoverflow.com/questions/26991393/what-does-auto-e-do-in-range-based-for-loops
+What is the advantage of using forwarding references in range-based for loops? https://stackoverflow.com/questions/13130708/what-is-the-advantage-of-using-forwarding-references-in-range-based-for-loops/13130795#13130795
+https://www.google.com/search?q=is+procedural+programming+the+same+as+functional&oq=is+procedural+programming+the+same+as+functional+&aqs=chrome..69i57.7454j0j7&sourceid=chrome&ie=UTF-8
+
+#testowanie #given #when #then
+
+planet-plugin uzywa pytest do testowania kodu python
+
+
+Generator
+
+Generatory w programowaniu to konstrukcje lub funkcje, które umożliwiają produkcję sekwencji wartości w sposób leniwy i efektywny. Oznacza to, że generatory generują kolejne elementy sekwencji w miarę potrzeby, a nie od razu wszystkie na początku. Dzięki temu można pracować z dużymi zbiorami danych lub nieskończonymi sekwencjami bez konieczności alokacji pamięci na całą sekwencję od razu.
+
+Generatory są szczególnie użyteczne w przypadku operacji, które wymagają przetwarzania dużych ilości danych, ale nie trzeba ich przechowywać w pamięci przez cały czas. Przykłady zastosowań generatorów to:
+
+Przetwarzanie plików tekstowych w sposób linia po linii.
+Iterowanie przez wyniki zapytania do bazy danych.
+Generowanie nieskończonych sekwencji, takich jak liczby pseudolosowe.
+Przetwarzanie strumieni danych w czasie rzeczywistym.
+W językach programowania takich jak Python, generatory można tworzyć za pomocą funkcji z wyrażeniem yield. Gdy w trakcie wywołania funkcji napotkane zostanie słowo kluczowe yield, bieżący stan funkcji zostanie "zamrożony", a wartość przekazana do yield będzie zwrócona jako wartość generatora. Następnie, przy kolejnym wywołaniu generatora, funkcja będzie kontynuowana od momentu, w którym została przerwana, i będzie działać do następnego wyrażenia yield.
+
+Oto prosty przykład generatora w Pythonie generującego kolejne liczby parzyste:
+
+def even_numbers_generator():
+    num = 0
+    while True:
+        yield num
+        num += 2
+
+generator = even_numbers_generator()
+for _ in range(5):
+    print(next(generator))
+
+
+Wynik działania tego kodu będzie kolejno: 0, 2, 4, 6, 8.
+
+Dzięki temu mechanizmowi generatory pozwalają na efektywne przetwarzanie dużych zbiorów danych lub nieskończonych sekwencji bez nadmiernego obciążania pamięci.
+
+
+
+Iterator
+
+Iterator to obiekt lub mechanizm umożliwiający sekwencyjny dostęp do elementów kolekcji lub sekwencji danych, bez konieczności znać w pełni ich struktury w pamięci. Iterator zapewnia dostęp do elementów w sposób leniwy, tzn. kolejne elementy są dostarczane w miarę potrzeb, co jest szczególnie przydatne przy pracy z dużymi zbiorami danych.
+
+Iterator skupia się na zapewnianiu dostępu do elementów i śledzeniu aktualnej pozycji w kolekcji, a nie na samym mechanizmie przechowywania danych. Dzięki temu można skonstruować efektywny i oszczędny sposób dostępu do elementów, nawet jeśli cała kolekcja nie jest przechowywana w pamięci.
+
+W językach programowania często spotyka się iteratory jako koncepcję i interfejs programistyczny, a także jako wbudowane mechanizmy lub typy danych. Aby korzystać z iteratora, programista zazwyczaj używa pętli, która wykorzystuje metodę next() iteratora, aby pobierać kolejne elementy, a gdy nie ma już więcej elementów, zgłaszany jest wyjątek (na przykład StopIteration).
+
+Przykład iteratora w Pythonie:
+
+my_list = [1, 2, 3, 4, 5]
+my_iterator = iter(my_list)
+
+print(next(my_iterator))  # Wypisze: 1
+print(next(my_iterator))  # Wypisze: 2
+print(next(my_iterator))  # Wypisze: 3
+# ...
+
+# Można także iterować za pomocą pętli for:
+for item in my_iterator:
+    print(item)
+
+
+W języku Python wiele typów danych, takich jak listy, krotki, czy pliki, jest automatycznie iterowalnych, co oznacza, że mogą być używane w pętlach for lub konwertowane na iteratory za pomocą funkcji iter().
+
+Iterator to ważny koncept w programowaniu, ponieważ pozwala na bardziej efektywne i oszczędne przetwarzanie dużych ilości danych poprzez dostarczanie ich leniwie, gdy są potrzebne, zamiast przechowywać wszystkie dane w pamięci od razu.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DOCKER
+
+stworzenie kontenera qgis_tests
+docker run -d --name qgis_tests -v /tmp/.X11-unix:/tmp/.X11-unix      -v C:\cygwin64\home\Geoxy\OSGeo4W\src\qgis-dev\qgis\my_tests:/tests_directory      -e DISPLAY=:99      qgis/qgis:latest
+
+stworzenie kontenera za pomocą docker-compose
+docker-compose -f docker-compose-qgis.yml up
+
+uruchomienie testow
+docker exec -it qgis sh -c "cd /tests_directory && qgis_testrunner.sh travis_tests.test_TravisTest.run_fail"
+docker exec -t qgis-quickosm sh -c "cd /tests_directory/${PLUGIN_NAME} && qgis_testrunner.sh qgis_plugin_tools.infrastructure.test_runner.test_package"
+
+uruchomienie qgis w dockerze jako aplikacji okienkowej - musi być uruchomiony VcXsrv
+docker run --rm -it --name qgis_gui -v /tmp/.X11-unix:/tmp/.X11-unix  -e DISPLAY=192.168.56.1:0.0 qgis/qgis:latest qgis     ---flaga --rm usuwa kontener z gui dockera po wykonaniu kodu
+docker run -it --name qgis_gui -v /tmp/.X11-unix:/tmp/.X11-unix  -e DISPLAY=192.168.56.1:0.0 qgis/qgis:latest qgis
+
+
+uruchomienie testow z pliku run-docker-tests.sh we wtyczce planetlabs qgis-planet-plugin 
+na poczatku trzeba przekonwertować konce lini z dos na format unix
+
+tr -d '\r' < /usr/src/.docker/run-docker-tests.sh > /usr/src/.docker/converted-run-docker-tests.sh
+
+pozniej mozna wykonać bash
+bash /usr/src/.docker/converted-run-docker-tests.sh
+
+w tym tescie w pliku converted-run-docker-tests.sh musze uzyc flagi -a w celu uzyskania pustego, dostepnego serwera
+-a        --auto-servernum          try to get a free server number, starting at
+                                    --server-num
+									
+									
+									
+
+
+
+
+pamięć
+LIFO - last in first out 
+
+
+
+
+program do sprawdzenia co jest w DLL
+dumpbin.exe 
+
+
+czym są smoke testy?
+czym w programowaniu jest spike?
+co to jest QA w programowaniu?
+co to jest legacy code?
+dług technologiczny w programowaniu
+jak wygląda wypuszczanie na produkcje?
+
+czym jest dns?
+czym jest dhcp?
+czym jest vps?
+czym jest cms?
+czym jest xmind?
+czym jest keypass?
+czym jest onepassword?
+czym jest backblaze?
+czym jest sketch mock?
+co to są wzroce enterprise?
+co to jest sugar syntax?
+czym jest mlops?
+co to jest openscan?
+czym jest malloc i calloc?
+
+czym jest SIP?
+czym jest SWIG?
+
+czy dyrektywy preprocesora w c++ występują takze w innych jezykach np. java, python?
+
+c++ bottom up approach co to?
+
+
+
+qtmaterial
+
+
+how to control priority of python threads?
+
+Informacje dla aplikacji interaktywnej:
+mapbox unity 
+reality maps sdk
+google cloud platform
+reality.co sdk
+
+
+ongeo.pl
+
+c++ switch syntax (...) three dots
+
+
+ksiązki:
+bhargava aditya algorytmy
+
+
+wspomagacze
+cdp choline
+lt aina
+kordyceps
+
+
+
+
+linki
+https://4programmers.net/Forum/Inzynieria_oprogramowania/150063-R%C3%B3%C5%BCnice_w_programowaniu_strukturalnym_a_proceduralnym
+https://binarnie.pl/programowanie-obiektowe-abstrakcja/
+https://en.cppreference.com/w/cpp/links/libs
+http://books.icse.us.edu.pl/runestone/static/thinkcspy/GeneralIntro/ThePythonProgrammingLanguage.html
+https://stackoverflow.com/questions/39606315/what-is-the-python-equivalent-of-c-const-reference-copy-constructor-arguments
+https://mmazurek.dev/python-i-programowanie-asynchroniczne/
+https://mmazurek.dev/python-bez-gila-jest-poc/
+https://mmazurek.dev/watki-i-procesy-w-pythonie/
+https://mmazurek.dev/czy-wzorce-projektowe-sa-zbedne-w-pythonie/
+https://mmazurek.dev/dataclasses-w-pythonie/
+https://developeronthego.pl/java-klasy-zagniezdzone-nested-classes/
