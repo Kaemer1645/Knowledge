@@ -18,6 +18,8 @@ https://www.datacamp.com/courses/intro-to-python-for-data-science
 https://codegym.cc/pl/groups/posts/225-wykad-zerowy?gclid=CjwKCAjwg6b0BRBMEiwANd1_SLJHGRcq--FiqZPaBnaXjIFxI7mqIw57OeSH5vmYRWZXQ0i1FHLf5BoC4doQAvD_BwE
 https://learndigital.withgoogle.com/internetowerewolucje?utm_source=yt&utm_medium=cpv&utm_term=inmarket&utm_content=20191001&utm_campaign=trv_pl_desk&dclid=&gclid=Cj0KCQjw9fntBRCGARIsAGjFq5GnM7sAYw-N8q7UyHR-WI5zybId1NePnDcCyUefJI8imDk-W-Sl2GIaAodSEALw_wcB
 
+C++
+https://cpp0x.pl/kursy/Kurs-C++/1
 
 Python OOP
 
@@ -93,6 +95,9 @@ https://www.statystyka.az.pl/5-najwazniejszych-metod-statystycznych-w-analizie-d
 Data Science
 https://vita.had.co.nz/papers/tidy-data.pdf  -tidy data
 https://analityk.edu.pl/
+https://www.earthdatascience.org/workshops/gis-open-source-python/crop-raster-data-in-python/
+https://www.earthdatascience.org/courses/use-data-open-source-python/multispectral-remote-sensing/landsat-in-Python/open-and-crop-data/
+https://carpentries-incubator.github.io/geospatial-python/01-intro-raster-data.html
 
 SQL-raster analizys
 https://github.com/bh-del/IDP/blob/master/raster_analysis_gdal.md

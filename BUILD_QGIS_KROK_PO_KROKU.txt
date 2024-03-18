@@ -69,3 +69,13 @@ w solution properites-->debugging-->command dodac sciezke do pliku qgis.exe aby 
 
 3. UPDATE
 PRZED PULLEM kodu źródłowego QGIS SPRAWDZIC I ZAKTUALIZOWAC PLIK ./package.sh od goscia zwanego JEF -> https://github.com/jef-n/OSGeo4W.git
+
+
+
+
+
+
+
+
+
+https://oslandia.com/en/2017/12/20/qgis-3-compiling-on-windows/

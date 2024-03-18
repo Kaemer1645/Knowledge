@@ -181,6 +181,8 @@ co to jest sugar syntax?
 czym jest mlops?
 co to jest openscan?
 czym jest malloc i calloc?
+czym są systemy rownolegle?
+obfuskacja w programowaniu
 
 czym jest SIP?
 czym jest SWIG?
@@ -229,6 +231,30 @@ https://stackoverflow.com/questions/39606315/what-is-the-python-equivalent-of-c-
 https://mmazurek.dev/python-i-programowanie-asynchroniczne/
 https://mmazurek.dev/python-bez-gila-jest-poc/
 https://mmazurek.dev/watki-i-procesy-w-pythonie/
+https://mmazurek.dev/dekorator-w-pythonie/
 https://mmazurek.dev/czy-wzorce-projektowe-sa-zbedne-w-pythonie/
 https://mmazurek.dev/dataclasses-w-pythonie/
 https://developeronthego.pl/java-klasy-zagniezdzone-nested-classes/
+https://realpython.com/python-project-documentation-with-mkdocs/
+https://bulldogjob.pl/readme/czym-jest-monkey-patching-w-pythonie
+https://gist.github.com/zeljic/d8b542788b225b1bcb5fce169ee28c55
+https://stackoverflow.com/questions/43387112/wrapping-c-code-with-python-manually
+https://www.blog.pythonlibrary.org/2023/11/01/how-to-create-a-pyd-file-in-python/
+https://nickjanetakis.com/blog/how-i-used-the-lxml-library-to-parse-xml-20x-faster-in-python
+https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
+https://enmap-box.readthedocs.io/en/latest/general/about.html
+https://gis.stackexchange.com/questions/131535/what-is-the-purpose-of-some-functions-and-files-in-qgis-python-plugins
+https://gis.stackexchange.com/questions/34147/where-can-i-find-documentation-on-qgis-c-plugin-development
+https://python-textbok.readthedocs.io/en/1.0/Introduction.html
+https://stackoverflow.com/questions/3898572/what-are-the-most-common-python-docstring-formats
+https://zielware.wordpress.com/2016/12/17/operatory-rzutowania-static-dynamic-const-reinterpret-cast-cpp/
+https://realpython.com/quizzes/
+https://pl.wikibooks.org/wiki/C/Wska%C5%BAniki
+https://drzewniak.slupsk.pl/~ks/c/c_024.html
+https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list
+https://dev.to/sandordargo/how-to-use-ampersands-in-c-3kga
+https://cpp0x.pl/kursy/Kurs-C++/Dodatkowe-materialy/Wskazniki/304
+https://inf.ug.edu.pl/~piotao/zasoby/cbx/basics/datatypes.php#:~:text=Jest%20to%20jednak%20typ%20niestandardowy,zakres%20od%200%20do%2065535.
+https://dsp.krzaq.cc/post/176/ucze-sie-cxx-kiedy-uzywac-new-i-delete/
+https://forum.pasja-informatyki.pl/28593/referencja-a-wskaznik
+https://cppdev.pl/wstep-do-cmake
