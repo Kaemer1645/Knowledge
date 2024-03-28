@@ -258,3 +258,4 @@ https://inf.ug.edu.pl/~piotao/zasoby/cbx/basics/datatypes.php#:~:text=Jest%20to%
 https://dsp.krzaq.cc/post/176/ucze-sie-cxx-kiedy-uzywac-new-i-delete/
 https://forum.pasja-informatyki.pl/28593/referencja-a-wskaznik
 https://cppdev.pl/wstep-do-cmake
+https://chyla.org/artykuly/python/python-generatory.html

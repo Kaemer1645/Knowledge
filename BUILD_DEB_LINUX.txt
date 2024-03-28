@@ -1,0 +1,37 @@
+Tworzenie pakietu .deb
+Przygotuj katalog projektu:
+
+Umieść swój skompilowany program w katalogu projektu, np. getdriveserialno-1.0.
+Wewnątrz tego katalogu, utwórz podkatalog debian.
+Inicjalizacja struktury debian:
+
+Przejdź do katalogu projektu i użyj dh_make do generacji szkieletu debian. Możesz potrzebować flagi -s dla pojedynczego pliku binarnego:
+
+cd getdriveserialno-1.0
+dh_make -s -c gpl -n
+Usuń zbędne pliki .ex i .EX.
+Konfiguruj pliki w debian/:
+
+changelog: Zaktualizuj historię zmian.
+control: Zaktualizuj metadane pakietu, w tym zależności.
+rules: Upewnij się, że plik jest poprawny; dla prostych projektów domyślne ustawienia powinny wystarczyć.
+Utwórz plik getdriveserialno.install, określając, gdzie pliki powinny zostać zainstalowane. Wpisz np.:
+
+getdriveserialno usr/bin
+Budowanie pakietu:
+
+Z katalogu zawierającego debian, uruchom debuild -us -uc.
+Znajdowanie pakietu .deb:
+
+Gotowy pakiet .deb znajdziesz w katalogu nadrzędnym względem twojego projektu.
+Instalacja pakietu .deb
+Instalacja pakietu:
+
+Użyj dpkg do zainstalowania pakietu:
+
+sudo dpkg -i getdriveserialno_1.0-1_amd64.deb
+Zastąp getdriveserialno_1.0-1_amd64.deb rzeczywistą nazwą twojego pakietu.
+Sprawdzenie instalacji:
+
+Uruchom swój program, aby sprawdzić, czy instalacja przebiegła pomyślnie:
+getdriveserialno
