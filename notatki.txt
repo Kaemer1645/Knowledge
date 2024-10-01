@@ -187,6 +187,8 @@ obfuskacja w programowaniu
 czym jest SIP?
 czym jest SWIG?
 
+co to są travis tests?
+
 czy dyrektywy preprocesora w c++ występują takze w innych jezykach np. java, python?
 
 c++ bottom up approach co to?
@@ -259,3 +261,57 @@ https://dsp.krzaq.cc/post/176/ucze-sie-cxx-kiedy-uzywac-new-i-delete/
 https://forum.pasja-informatyki.pl/28593/referencja-a-wskaznik
 https://cppdev.pl/wstep-do-cmake
 https://chyla.org/artykuly/python/python-generatory.html
+
+
+
+
+
+
+
+
+__________________________________________________________________________________________________________________________________________________________________
+wygenerowanie obrazu dockera do pliku tar
+docker commit apache-php-container apache-php-qmapa:latest
+docker save -o apache_php_qmapa.tar apache-php-qmapa
+docker load -i apache-php-qmapa.tar
+docker run -d -p 599:80 apache-php-qmapa
+__________________________________________________________________________________________________________________________________________________________________
+wejscie na konsole dockera z cmd windows
+docker exec -u root -t -i apache2-container /bin/bash
+docker exec -u root -t -i qmapa_statistics_reverse_proxy-gxy_statistics-1 /bin/bash
+__________________________________________________________________________________________________________________________________________________________________
+kompilacja gxy_statistics na ubuntu g++
+g++ -fPIC -O2 -c ../src/statistics/gxy_statistics.cpp -o gxy_statistics.o -lssl -lcrypto -I/media/sf_dev/Walidator/Walidator/include -DCOMPILE_DLL
+g++ -shared -o gxy_statistics.so gxy_statistics.o
+__________________________________________________________________________________________________________________________________________________________________
+montowanie na dell tower sudo mount -t cifs //10.0.0.243/dane1/Oracle/Dane /mnt/oracle_dane -o username=admin,password=geoxy12,file_mode=0777,dir_mode=0777              10.0.0.50 l:ftpgeoxy04 h:l#LbscrH l:geouser h:geoxy12 sudo mount -t cifs //10.0.0.50/ftp/ftp04 /mnt/ftp_tset -o username=ftpgeoxy04,password=l#LbscrH,vers=1.0
+__________________________________________________________________________________________________________________________________________________________________
+# Run the docker container in which to perform the tests
+docker run -d --name qgis_opengisch -v /tmp/.X11-unix:/tmp/.X11-unix -v C:/dev/qgis_plugins_test_demo/qgis_docker/:/tests_directory -e DISPLAY=:99 qgis/qgis:latest
+docker run -d --name qgis_planet -v /tmp/.X11-unix:/tmp/.X11-unix -v C:/dev/qgis_plugins_test_demo/qgis_docker/:/tests_directory -e DISPLAY=:99 qgis/qgis:latest
+__________________________________________________________________________________________________________________________________________________________________
+# Run the tests in the docker QGIS
+docker exec -it qgis_opengisch sh -c "cd /tests_directory && qgis_testrunner.sh tests.test_geometries.run_all"
+
+
+
+
+
+
+
+przyklad uzycia libki w kodzie #pragma comment( lib, "emapi" )
+https://learn.microsoft.com/pl-pl/cpp/preprocessor/comment-c-cpp?view=msvc-170
+
+
+czym jest VertexAI od google?
+Vertex AI to środowisko Google Cloud do wykonywania zadań uczenia maszynowego, od eksperymentowania, przez wdrażanie, po zarządzanie i monitorowanie modeli. Jest to skalowalna infrastruktura, która zapewnia możliwości zarządzania użytkownikami i kontrolę bezpieczeństwa nad projektami uczenia maszynowego.
+
+
+
+
+
+
+
+
+pip freeze > requirements.txt
+pip install -r requirements.txt --upgrade
